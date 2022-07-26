@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Prog12 from './Components.js/Prog12';
+import Prog3 from './Components.js/Prog3';
+import Prog4 from './Components.js/Prog4';
+import Prog5 from './Components.js/Prog5';
+import SixthComponent from './Components.js/Prog6';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<>
+    <h1><Prog12 Siblings = {1} Age = {20}/></h1>
+    <h1><Prog3 /></h1>
+    <h1><Prog4 /></h1>
+    <h1><Prog5 /></h1>
+    <h1><SixthComponent /></h1>
+    </>
   );
 }
 
